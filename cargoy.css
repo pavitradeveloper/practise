@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 70%;
+	margin: auto;
+}
+body{
+	font-family: 'tahoma', sans-serif;
+}
+.abc{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+
+
+}
+.box{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 15px;
+}
+.box .txt i{
+	color: orangered;
+	font-size: 70px;
+	margin-right: 10px;
+}
+.box .txt1 h4{
+	margin-bottom: 5px;
+}
+.box .txt1 p{
+	line-height: 22px;
+	color: dimgray;
+}
+
+
+.abc .a{
+	margin-right: 100px;
+}
+.abc .a h5{
+	color: orangered;
+	margin-bottom: 5px;
+}
+.abc .a h1{
+	margin-bottom: 20px;
+}
+.b{
+	position: relative;
+}
+.bb{
+	outline: 2px dotted orange;
+	outline-offset: -10px;
+	background-color: #fff;
+	height: 170px;
+	width: 170px;
+	padding: 30px;
+	position: absolute;
+	left: -50px;
+	bottom: 20px;
+	box-shadow: 2px 2px 10px gray;
+	
+
+}
+.bb i{
+	color: orangered;
+	font-size: 50px;
+}
+.bb h4{
+	margin: 8px 0px;
+}
